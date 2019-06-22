@@ -11,6 +11,7 @@ public class Homepage {
 		WebDriver driver =new ChromeDriver();
         driver.get("https://ramersoft.com");
         driver.manage().window().maximize();
+        driver.close();
 	}
 
 }
